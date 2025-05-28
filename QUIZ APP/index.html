@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8TH GEAR HUB & VENTURE STUDIO</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app">
+      <div id="login">
+        <h1>
+          <p>DEMMY'S STAFF TRAINING QUIZ</p>
+        </h1>
+        <div class="settings">
+          <label for="team">Team</label>
+          <input id="team" placeholder="Enter your team here" list="teams">
+          <datalist id="teams">
+            <option value="Technical">
+            <option value="Administrative">
+            <option value="Creative Design">
+            <option value="Digital Marketing">
+            <option value="Venture Studio">
+            <option value="Sales">
+            <option value="Accounts">
+          </datalist>
+
+          <label for="name">Name</label>
+          <input id="name" placeholder="Enter your name here" list="names">
+          <datalist id="names">
+            <option value="Opeyemi">
+            <option value="Boluwatife">
+            <option value="John">
+            <option value="Sola">
+            <option value="Babatunde">
+            <option value="Aisha">
+            <option value="Goke">
+            <option value="Kolawole">
+            <option value="Moses Okafor">
+            <option value="Oluwademilade Adeyemo">
+            <option value="Malcolm">
+            <option value="Khadija">
+            <option value="Abdulhakeem">
+          </datalist>
+        </div>
+
+        <div>
+          <button id="start-btn">Start</button>
+        </div>
+      </div>
+
+      <div id="quiz" style="display: none;">
+        <h1>
+          <p>DEMMY'S STAFF TRAINING QUIZ</p>
+        </h1>
+        <h2 id="question">Question goes here</h2>
+
+        <div id="answer-buttons">
+          <button class="btn"></button>
+          <button class="btn"></button>
+          <button class="btn"></button>
+          <button class="btn"></button>
+        </div>
+
+        <button id="next-btn" style="display: none;">Next</button>
+        <button id="end-btn">End</button>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
